@@ -30,15 +30,10 @@ The design supports multiple voltage rails (1V, 3.3V, 5V) and uses passive compo
 2. Clone this repository
 3. Open `LedMatrix.kicad_pro` in KiCad
 
-## File Structure
+## Objective
 
-```
-LedMatrix.kicad_pro    — KiCad project file
-LedMatrix.kicad_sch    — Schematic
-LedMatrix.kicad_pcb    — PCB layout (not yet routed)
-New_Library.kicad_sym  — Custom symbol library (TDCR1060M, VS-1213-67-160GF)
-```
+This board was developed as a intro to kicad/PCB workshop board.
 
 ## License
 
-This project is developed by IEEE members. Contact the maintainers for usage terms.
+This project is developed by Luca Sburlino. Contact the maintainers for usage terms.
