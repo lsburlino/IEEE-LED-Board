@@ -1,15 +1,15 @@
 # IEEE LED Matrix Board
 
-A KiCad hardware design for an LED matrix display board, built for IEEE. The board uses an Arduino Nano Every microcontroller and a MAX7219 LED driver to control multiple LED display modules.
+A KiCad hardware design for an 7-Segment LED matrix display board, built for a University of Portland IEEE student workshop. The board uses an Arduino Nano R4 MCU and a MAX7219 LED driver to control multiple LED display modules.
 
 ## Circuit Overview
 
 | Component | Description |
 |-----------|-------------|
-| Arduino Nano Every | Main microcontroller (ATmega4809) |
+| Arduino Nano R4 | Main microcontroller |
 | MAX7219 | 8-digit serial LED display driver (Maxim Integrated) |
 | TDCR1060M (x2) | Vishay LED display units |
-| VS-1213-67-160GF (x3) | LED matrix display modules |
+| VS-1213-67-160GF (x3) | 12mm tactile input switches |
 
 The design supports multiple voltage rails (1V, 3.3V, 5V) and uses passive components for current limiting and decoupling.
 
@@ -29,10 +29,6 @@ The design supports multiple voltage rails (1V, 3.3V, 5V) and uses passive compo
 1. Install [KiCad 9.0](https://www.kicad.org/download/) or later
 2. Clone this repository
 3. Open `LedMatrix.kicad_pro` in KiCad
-
-## Objective
-
-This board was developed as a intro to kicad/PCB workshop board.
 
 ## License
 
