@@ -1,0 +1,20 @@
+### Windows
+# Windows thumbnail cache files
+Thumbs.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Folders
+LedMatrix-backups
+
+# Kicad
+*.lck
+_autosave-LedMatrix.kicad_sch
+\#auto_saved_files\#
