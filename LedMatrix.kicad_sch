@@ -1757,6 +1757,466 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "New_Library:AT-1224-TWT-5V-2-R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AT-1224-TWT-5V-2-R"
+				(at -1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AT-1224-TWT-5V-2-R:XDCR_AT-1224-TWT-5V-2-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "668-1470-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT-1224-TWT-5V-2-R/PUI+Audio/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.8 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AT-1224-TWT-5V-2-R/PUI+Audio/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2014/07/25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "PUI Audio"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "AT-1224-TWT-5V-2-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "12MM TRANSDUCER 2400HZ 87DB 47OHM 5V 40MA MAGNETIC TOP FIRING WASHABLE THRUHOLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "PUI Audio"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AT-1224-TWT-5V-2-R_0_0"
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -5.08 2.54 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -5.08 -5.08 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:TDCR1060M"
 			(pin_names
 				(offset 0.254)
@@ -3044,7 +3504,7 @@
 		)
 	)
 	(junction
-		(at 54.61 125.73)
+		(at 77.47 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35e50ac4-5c1a-4f25-919a-9a37c5c37f7e")
@@ -3056,13 +3516,13 @@
 		(uuid "43589857-e93f-4223-b1c5-dfd47ec25bc0")
 	)
 	(junction
-		(at 76.2 125.73)
+		(at 57.15 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fbf4992-3d1d-4940-816d-665c6ae3ed69")
 	)
 	(junction
-		(at 63.5 120.65)
+		(at 44.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "651d4644-b249-4ff9-baf1-8c0b8dec1fb6")
@@ -3074,7 +3534,7 @@
 		(uuid "67c74402-56b8-45b7-9fde-793b76c5f524")
 	)
 	(junction
-		(at 41.91 120.65)
+		(at 64.77 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9578be0b-f4c0-415f-8540-8ecdcbb126fa")
@@ -3114,6 +3574,16 @@
 			(type default)
 		)
 		(uuid "113e17db-84d1-4305-9a7f-341449de2ee6")
+	)
+	(wire
+		(pts
+			(xy 120.65 171.45) (xy 120.65 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1927698b-65c1-49a3-b759-407285fba790")
 	)
 	(wire
 		(pts
@@ -3177,7 +3647,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 125.73) (xy 76.2 129.54)
+			(xy 57.15 125.73) (xy 57.15 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 76.2 125.73)
+			(xy 57.15 120.65) (xy 57.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3317,6 +3787,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 171.45) (xy 158.75 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631c8b9b-b482-45da-b010-1630eb03d54b")
+	)
+	(wire
+		(pts
 			(xy 158.75 99.06) (xy 185.42 99.06)
 		)
 		(stroke
@@ -3337,7 +3817,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 120.65) (xy 54.61 125.73)
+			(xy 77.47 120.65) (xy 77.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3367,6 +3847,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 171.45) (xy 139.7 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d547b04-feba-42bf-9a73-69e9a408d216")
+	)
+	(wire
+		(pts
 			(xy 161.29 73.66) (xy 161.29 52.07)
 		)
 		(stroke
@@ -3374,6 +3864,16 @@
 			(type default)
 		)
 		(uuid "7f28c2b1-7838-4854-ae91-7bf1047e0245")
+	)
+	(wire
+		(pts
+			(xy 118.11 127) (xy 118.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e79a47-32dd-458b-b2fe-8d423fde8b75")
 	)
 	(wire
 		(pts
@@ -3447,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 120.65) (xy 63.5 125.73)
+			(xy 44.45 120.65) (xy 44.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3507,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 114.3) (xy 41.91 120.65)
+			(xy 64.77 114.3) (xy 64.77 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3537,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 63.5 120.65)
+			(xy 44.45 114.3) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +4047,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 125.73) (xy 54.61 129.54)
+			(xy 77.47 125.73) (xy 77.47 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +4057,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 120.65) (xy 41.91 125.73)
+			(xy 64.77 120.65) (xy 64.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3604,6 +4104,16 @@
 			(type default)
 		)
 		(uuid "deeae403-e66a-4862-a6f7-5286e72ae8ae")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 118.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2637b5b-1aee-4bb8-aa7b-3c7ed1d0a026")
 	)
 	(wire
 		(pts
@@ -4158,7 +4668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mode"
+		(property "Value" "Reset"
 			(at 36.83 55.8799 90)
 			(effects
 				(font
@@ -4407,6 +4917,72 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
+		(at 118.11 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2edd22cd-313a-4923-9624-f300963e938a")
+		(property "Reference" "#BZR0101"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aafe143-b826-49bb-a134-24c591934f8b")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "#BZR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 226.06 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4540,16 +5116,16 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 63.5 114.3 0)
+		(at 40.64 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a67160c-7a8b-413e-ac13-ea98677e2fdd")
-		(property "Reference" "#PWR012"
-			(at 63.5 118.11 0)
+		(uuid "39e6df13-a1ce-4643-8cae-4cbdcb9e51fc")
+		(property "Reference" "#BZR01"
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,16 +5133,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Reset"
-			(at 63.5 109.22 0)
+		(property "Value" "Buzzer"
+			(at 36.83 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 114.3 0)
+			(at 40.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +5152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 114.3 0)
+			(at 40.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +5161,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 63.5 114.3 0)
+			(at 40.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c46619b-3620-45a7-b8a5-b17e9b35c1af")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "#BZR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 44.45 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a67160c-7a8b-413e-ac13-ea98677e2fdd")
+		(property "Reference" "#PWR012"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Mode"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 44.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +5341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LedMatrixFootprintLib:21-0043D_24_MXM"
 			(at 107.95 67.31 0)
 			(effects
 				(font
@@ -4834,7 +5477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 46.99 26.67 0)
 			(effects
 				(font
@@ -5143,6 +5786,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51da87cd-8e05-4f07-9667-feb7d66df63d")
+		(property "Reference" "#PWR061"
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece536eb-1cb7-4666-a2cc-06a087a8bb4f")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
 		(at 119.38 60.96 270)
 		(unit 1)
@@ -5211,7 +5920,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 41.91 114.3 0)
+		(at 64.77 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5220,7 +5929,7 @@
 		(fields_autoplaced yes)
 		(uuid "53f2db64-f55a-47aa-a2b8-68cd6a7034fd")
 		(property "Reference" "#PWR011"
-			(at 41.91 118.11 0)
+			(at 64.77 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,8 +5937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Mode"
-			(at 41.91 109.22 0)
+		(property "Value" "Reset"
+			(at 64.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 114.3 0)
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 114.3 0)
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 41.91 114.3 0)
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LedMatrixFootprintLib:CAP_YX_5X11_RUB"
 			(at 46.6852 181.61 0)
 			(effects
 				(font
@@ -5546,7 +6255,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:VS-1213-67-160GF")
-		(at 69.85 123.19 0)
+		(at 50.8 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5554,24 +6263,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69c290e4-d5ee-4a34-9491-f74aeb547c9f")
-		(property "Reference" "S2"
-			(at 69.85 114.3 0)
+		(property "Reference" "S1"
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Button2"
-			(at 69.85 116.84 0)
+		(property "Value" "Mode"
+			(at 50.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "VS-1213-67-160GF:SW_VS-1213-67-160GF"
-			(at 69.85 123.19 0)
+		(property "Footprint" "LedMatrixFootprintLib:SW_VS-1213-67-160GF"
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +6290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +6299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +6308,7 @@
 			)
 		)
 		(property "MF" "Valcon"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +6318,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.3mm"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +6328,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +6338,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +6348,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=eda"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +6358,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +6368,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +6378,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=snap"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +6388,7 @@
 			)
 		)
 		(property "MP" "VS-1213-67-160GF"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +6398,7 @@
 			)
 		)
 		(property "Description_1" "Valcon 12 x 12mm PCB Mount Flat Tactile Switch"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +6408,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +6418,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Valcon"
-			(at 69.85 123.19 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6442,7 @@
 		(instances
 			(project "LedMatrix"
 				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
-					(reference "S2")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -5767,7 +6476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 67.31 177.8 0)
 			(effects
 				(font
@@ -5954,7 +6663,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:VS-1213-67-160GF")
-		(at 48.26 123.19 0)
+		(at 71.12 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5962,24 +6671,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70da60c7-1373-4314-9a96-56f12a1d0539")
-		(property "Reference" "S1"
-			(at 48.26 114.3 0)
+		(property "Reference" "S2"
+			(at 71.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Button1"
-			(at 48.26 116.84 0)
+		(property "Value" "Reset"
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "VS-1213-67-160GF:SW_VS-1213-67-160GF"
-			(at 48.26 123.19 0)
+		(property "Footprint" "LedMatrixFootprintLib:SW_VS-1213-67-160GF"
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6716,7 @@
 			)
 		)
 		(property "MF" "Valcon"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6726,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.3mm"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6736,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6746,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6756,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=eda"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6766,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6776,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6786,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=snap"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6796,7 @@
 			)
 		)
 		(property "MP" "VS-1213-67-160GF"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6806,7 @@
 			)
 		)
 		(property "Description_1" "Valcon 12 x 12mm PCB Mount Flat Tactile Switch"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6816,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6826,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Valcon"
-			(at 48.26 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6850,7 @@
 		(instances
 			(project ""
 				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
-					(reference "S1")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -6281,6 +6990,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd5c711-c318-4f8c-96a5-de6bbb35f2b7")
+		(property "Reference" "#PWR060"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "297d509c-a630-4813-ac35-1aa0b7db4af3")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 31.75 172.72 0)
 		(unit 1)
@@ -6340,6 +7115,72 @@
 			(project "LedMatrix"
 				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f6204e2-34d2-4ed2-94f1-55a09e03c7a5")
+		(property "Reference" "#PWR058"
+			(at 120.65 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59e91e5b-b276-4e10-ac10-5da8844975ef")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6507,7 +7348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 65.532 170.18 90)
 			(effects
 				(font
@@ -6611,6 +7452,74 @@
 			(project "LedMatrix"
 				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2a18566-6b12-49cd-a562-538a09575886")
+		(property "Reference" "H3"
+			(at 161.29 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 161.29 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 158.75 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 158.75 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e36b2801-0182-458d-847d-083f17e222a6")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6845,7 +7754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 32.7152 181.61 0)
 			(effects
 				(font
@@ -6972,7 +7881,7 @@
 				)
 			)
 		)
-		(property "Value" "Button3"
+		(property "Value" "Start/Stop"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -6980,7 +7889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VS-1213-67-160GF:SW_VS-1213-67-160GF"
+		(property "Footprint" "LedMatrixFootprintLib:SW_VS-1213-67-160GF"
 			(at 91.44 123.19 0)
 			(effects
 				(font
@@ -7485,6 +8394,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfadce4f-33d7-4258-bf4a-9eb79cab96bc")
+		(property "Reference" "#PWR059"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4411853d-6c03-4ab1-aa08-a2dce9f70237")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:TDCR1060M")
 		(at 185.42 39.37 0)
 		(unit 1)
@@ -7510,7 +8485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDCG1060M_VIS"
+		(property "Footprint" "LedMatrixFootprintLib:TDCG1060M_VIS"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -7598,7 +8573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 129.54 0)
+		(at 57.15 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7607,7 +8582,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2995c32-4522-4fee-af15-3f6c7e596c8d")
 		(property "Reference" "#PWR09"
-			(at 76.2 135.89 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +8591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 134.62 0)
+			(at 57.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +8599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 129.54 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +8608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 129.54 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +8617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 129.54 0)
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,7 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "Mode"
 			(at 36.83 58.4199 90)
 			(effects
 				(font
@@ -8159,7 +9134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 92.202 40.64 90)
 			(effects
 				(font
@@ -8403,6 +9378,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 139.7 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc39a39-8c39-4b64-8b52-12fad093b16a")
+		(property "Reference" "H2"
+			(at 142.24 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 142.24 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdba3c46-3c29-4870-ac77-758de3936c91")
+		)
+		(instances
+			(project "LedMatrix"
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
 		(at 226.06 49.53 270)
 		(unit 1)
@@ -8495,7 +9538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDCG1060M_VIS"
+		(property "Footprint" "LedMatrixFootprintLib:TDCG1060M_VIS"
 			(at 185.42 86.36 0)
 			(effects
 				(font
@@ -8649,8 +9692,189 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:AT-1224-TWT-5V-2-R")
+		(at 120.65 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec06b0aa-4878-457d-8fa7-3f063ee329cb")
+		(property "Reference" "LS1"
+			(at 124.46 120.7942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 124.46 123.3342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LedMatrixFootprintLib:Buzzer"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "668-1470-ND"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT-1224-TWT-5V-2-R/PUI+Audio/view-part/?ref=snap"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.8 mm"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AT-1224-TWT-5V-2-R/PUI+Audio/view-part/?ref=eda"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2014/07/25"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "PUI Audio"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AT-1224-TWT-5V-2-R"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "12MM TRANSDUCER 2400HZ 87DB 47OHM 5V 40MA MAGNETIC TOP FIRING WASHABLE THRUHOLE"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "PUI Audio"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "71c85144-aa39-416e-bf73-5c60c52581a0")
+		)
+		(pin "P"
+			(uuid "2688ef3a-2069-4a17-a385-cabfe96679e2")
+		)
+		(instances
+			(project ""
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 54.61 129.54 0)
+		(at 77.47 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8659,7 +9883,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeeb50fe-73b3-4080-a2df-825a1fdb9f59")
 		(property "Reference" "#PWR08"
-			(at 54.61 135.89 0)
+			(at 77.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +9892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 134.62 0)
+			(at 77.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +9900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 129.54 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +9909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 129.54 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +9918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 129.54 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,6 +10217,74 @@
 			(project "LedMatrix"
 				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff5c05c2-c1c5-4d0f-8b46-ed1848168842")
+		(property "Reference" "H1"
+			(at 123.19 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d84e6d34-b2aa-4bcf-b8b5-f3b79c3835a3")
+		)
+		(instances
+			(project ""
+				(path "/2d29fdf0-abfc-432d-91d4-7d0f6903b1c0"
+					(reference "H1")
 					(unit 1)
 				)
 			)

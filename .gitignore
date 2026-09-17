@@ -18,3 +18,5 @@ LedMatrix-backups
 *.lck
 _autosave-LedMatrix.kicad_sch
 \#auto_saved_files\#
+*.ses
+#.dsn
